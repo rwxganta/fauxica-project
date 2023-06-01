@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Fauxica</title>
 </head>
 
@@ -14,66 +18,60 @@
             <img src="/images/logo.svg" alt="">
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>Gallery</li>
-                    <li>Contact</li>
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>Products</a></li>
+                    <li><a href='#'>Gallery</a></li>
+                    <li><a href='#'>Contact</a></li>
                 </ul>
             </nav>
         </header>
 
         <section class="grid">
             <div class="grid__content">
-                <h1>Quality apparel without the price tag</h1>
-                <p>No need to spend $xxx on apperal just for the name's sake. Our premium is made from the same stuff.
+                <h1 class='grid__content__title'>Quality apparel without the price tag</h1>
+                <p class='grid__content__desc'>No need to spend $xxx on apperal just for the name's sake. Our premium is made from the same stuff.
                 </p>
                 <div class="grid__content_actions">
                     <a class='actions__collection' href="#">Browser our collection</a>
                     <a class='actions__spring' href="#">Spring '23 Collection</a>
                 </div>
-                <div class="announce">
-                    <p>50K</p>
-                    <p>We're proud to announce that we now employ a workforce of over 50,000. It's all possible because
+                <div class="grid__content_announce">
+                    <p class='announce__amount'>50K</p>
+                    <p class='announce__desc'>We're proud to announce that we now employ a workforce of over <bold>50,000</bold>. It's all possible because
                         of you.</p>
                 </div>
             </div>
             <div class="grid__photos">
-                <div class="photo01">
-                    <figure>
-                        <img src="images/clothing1.jpg" alt="">
+                    <figure class='photo01'>
+                        <!--<img src="images/clothing1.jpg" alt="">-->
                         <figcaption>
                             <div class="figureInfo">
                                 <p class='figureInfo--bold'>Fauxica Sport</p>
-                                <p>Running shoe</p>
+                                <p class='figureInfo--desc'>Running shoe</p>
                             </div>
                             <p class='figureInfo__price'>$59</p>
                         </figcaption>
                     </figure>
-                </div>
-                <div class="photo02">
-                    <figure>
-                        <img src="images/clothing2.jpg" alt="">
+                    <figure class='photo02'>
+                        <!--<img src="images/clothing2.jpg" alt="">-->
                         <figcaption>
                             <div class="figureInfo">
                                 <p class='figureInfo--bold'>Fauxica Sport</p>
-                                <p>Running shoe</p>
+                                <p class='figureInfo--desc'>Running shoe</p>
                             </div>
                             <p class='figureInfo__price'>$59</p>
                         </figcaption>
                     </figure>
-                </div>
-                <div class="photo03">
-                    <figure>
-                        <img src="images/clothing3.jpg" alt="">
+                    <figure class='photo03'>
+                        <!--<img src="images/clothing3.jpg" alt="">-->
                         <figcaption>
                             <div class="figureInfo">
                                 <p class='figureInfo--bold'>Fauxica Sport</p>
-                                <p>Running shoe</p>
+                                <p class='figureInfo--desc'>Running shoe</p>
                             </div>
                             <p class='figureInfo__price'>$59</p>
                         </figcaption>
                     </figure>
-                </div>
             </div>
         </section>
     </div>
