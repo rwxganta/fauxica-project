@@ -168,10 +168,14 @@ nav li a:hover::before {
     background-color: hsl(54, 42%, 80%);
 }
 
-.actions__spring::after {
-    content: '\2192';
-    display: inline-block;
-    margin-left: .4rem;
+.actions__spring img {
+    margin-left: .3em;
+    display: inline;
+    transition: margin 250ms;
+}
+
+.actions__spring:hover img {
+    margin-left: .6em;
 }
 
 .grid__content_announce {
