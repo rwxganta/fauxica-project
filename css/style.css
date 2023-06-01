@@ -153,10 +153,6 @@ nav li a:hover::before {
     line-height: 1.4;
 }
 
-.grid__content__actions {
-
-}
-
 .actions__collection {
     margin-right: 2rem;
     padding: .875em 1.5em;
