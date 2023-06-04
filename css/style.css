@@ -37,17 +37,7 @@ a {
 nav li a {
     text-transform: uppercase;
     text-decoration: none;
-    /*position: relative;*/
 }
-
-/*nav li a::before {
-    content: '';
-    display: inline-block;
-    height: 1px;
-    width: 15px;background-color: #000;
-    position: absolute;
-    bottom: -1px;
-}*/
 
 .grid__content__title {
     font-family: 'Playfair Display', serif;
@@ -94,7 +84,6 @@ nav li a {
 /* Layout */
 
 .container {
-    /*outline: 1px solid brown;*/
     margin-inline: auto;
     max-width: 70rem;
 }
@@ -132,7 +121,6 @@ nav li a:hover::before {
 }
 
 .grid {
-    /*outline: 2px solid brown;*/
     margin-block: 7.6rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -140,7 +128,6 @@ nav li a:hover::before {
 }
 
 .grid__content {
-    /*outline: 2px solid brown;*/
     display: flex;
     flex-direction: column;
 }
