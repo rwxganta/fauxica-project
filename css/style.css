@@ -202,22 +202,24 @@ nav li a:hover::before {
 }
 
 figure {
-    position: relative;
+    padding: .6rem;
     border-radius: 7px;
+
+    display: flex;
+    align-items: flex-start;
 }
 
 figure figcaption {
-    margin: .6875rem;
     padding: 1em;
-    width: 90%;
-    position: absolute;
-    bottom: 0;
     background-color: #fff;
     border-radius: 3.5px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    flex-grow: 1;
+    margin-top: auto;
 }
 
 .figureInfo {
