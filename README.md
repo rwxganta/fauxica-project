@@ -10,4 +10,4 @@ I did not code along with him, just grab the [figma](https://www.figma.com/commu
 
 - This was my first time using Grid. Got kinda lost trying to understand the grid lines but I did fine.
 
-- Really have to come back to the code later and fix those images in the grid, 'cause I don't thing they should be background-images, but image elements on HTML.
+- ~~Really have to come back to the code later and fix those images in the grid. 'cause I don't thing they should be background-images, but image elements on HTML.~~ Fix the images and add those transtition effects on hover but ended up leaving the images as background-images, just because u.u
