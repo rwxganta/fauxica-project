@@ -232,31 +232,28 @@ figure figcaption {
     gap: 1.8rem;
 }
 
+.photo {
+    background-color: cornflowerblue;
+    background-size: cover;
+    background-position: center;
+}
+
 .photo01 {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    background-color: cornflowerblue;
     background-image: url(../images/clothing2.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .photo02 {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    background-color: cornflowerblue;
     background-image: url(../images/clothing3.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .photo03 {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    background-color: cornflowerblue;
     background-image: url(../images/clothing1.jpg);
-    background-size: cover;
-    background-position: left;
     position: relative;
 }
 
