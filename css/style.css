@@ -200,6 +200,7 @@ figure figcaption {
     padding: 1em;
     background-color: #fff;
     border-radius: 3.5px;
+    position: relative;
 
     display: flex;
     justify-content: space-between;
@@ -207,6 +208,7 @@ figure figcaption {
 
     flex-grow: 1;
     margin-top: auto;
+    transition: transform 250ms;
 }
 
 .figureInfo {
@@ -232,33 +234,59 @@ figure figcaption {
     gap: 1.8rem;
 }
 
-.photo {
+.img-wrapper {
+    background-color: lightgreen;
     background-color: cornflowerblue;
     background-size: cover;
     background-position: center;
+    position: absolute;
+    inset: 0;
+    transition: transform 250ms;
+}
+
+.figure-01 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    position: relative;
+    overflow: hidden;
+}
+
+.figure-02 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    position: relative;
+    overflow: hidden;
+}
+
+.figure-03 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    position: relative;
+    overflow: hidden;
 }
 
 .photo01 {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
     background-image: url(../images/clothing2.jpg);
 }
 
 .photo02 {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
     background-image: url(../images/clothing3.jpg);
 }
 
 .photo03 {
-    grid-column: 1 / 2;
-    grid-row: 1 / 3;
     background-image: url(../images/clothing1.jpg);
-    position: relative;
 }
 
-.photo03::before {
+.figure-03::before {
     content: url(../images/tag.svg);
     position: absolute;
     left: -50px;
+}
+
+figure:hover .img-wrapper {
+    transform: scale(1.1);
+}
+
+figure:hover figcaption {
+    transform: translateY(-25%);
 }
